@@ -1,38 +1,38 @@
-# 🎶 Euterpe Dashboard
+# Euterpe Dashboard
 
 A beautiful, Spotify-inspired music analytics dashboard that provides deep insights into your listening habits and musical journey. Named after Euterpe, the Greek muse of music, this dashboard transforms your Spotify data into an elegant, interactive experience.
 
 ![Dashboard Preview](https://img.shields.io/badge/Status-Live-brightgreen) ![Python](https://img.shields.io/badge/Python-3.8+-blue) ![Flask](https://img.shields.io/badge/Flask-2.0+-red) ![Spotify API](https://img.shields.io/badge/Spotify-Web%20API-1ed760)
 
-## ✨ Features
+## Features
 
-### 🎵 **Music Library Analytics**
+### Music Library Analytics
 - **Top Tracks**: Your most-played songs with popularity ratings and album artwork
 - **Top Artists**: Favorite artists with genre information and profile photos
 - **Top Albums**: Most-listened albums with cover art and artist details
 - **Hidden Gems**: Discover your rarest tracks (lowest popularity scores)
 - **Top Playlists**: Playlists containing the most of your top songs
 
-### 📊 **Advanced Analytics**
+### Advanced Analytics
 - **Timeless Artists**: Artists that consistently appear across different time periods
 - **Trending Down**: Artists with declining interest over time
 - **Release Trends**: Visual analysis of your music by release year
 - **Seasonal Variety**: Genre diversity across different seasons
 
-### 🎨 **Beautiful UI**
+### Beautiful UI
 - **Spotify-Inspired Design**: Dark theme with authentic Spotify color palette
 - **Responsive Layout**: Works perfectly on desktop, tablet, and mobile
 - **Interactive Charts**: Native HTML/CSS/JS charts (no heavy dependencies)
 - **Real Album Artwork**: High-quality images from Spotify's CDN
 - **Smooth Animations**: Hover effects and transitions for premium feel
 
-### ⚡ **Performance Optimized**
+### Performance Optimized
 - **Fast Loading**: Native charts instead of heavy Matplotlib
 - **Efficient API Calls**: Parallel data fetching for quick load times
 - **Smart Caching**: Optimized data retrieval patterns
 - **Lightweight**: Minimal dependencies for fast deployment
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -90,7 +90,7 @@ python app.py
 ### 6. Access the Dashboard
 Open your browser and navigate to: `http://localhost:5000`
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 euterpe_dashboard/
@@ -107,7 +107,7 @@ euterpe_dashboard/
         └── script.js    # Frontend JavaScript functionality
 ```
 
-## 🔧 API Endpoints
+## API Endpoints
 
 ### Music Data
 - `GET /top_songs?time_range={short_term|medium_term|long_term}` - Top tracks
@@ -126,7 +126,7 @@ euterpe_dashboard/
 - `GET /favicon.png` - Dashboard favicon
 - `GET /static/js/script.js` - Frontend JavaScript
 
-## 🎨 Design System
+## Design System
 
 ### Color Palette
 ```css
@@ -151,7 +151,7 @@ euterpe_dashboard/
 - **Charts**: Native HTML/CSS bars with smooth transitions
 - **Navigation**: Sidebar with active states and smooth transitions
 
-## 🔐 Security & Privacy
+## Security & Privacy
 
 ### Data Handling
 - **No Data Storage**: All data is fetched in real-time from Spotify
@@ -167,7 +167,7 @@ The app requests minimal necessary permissions:
 - `playlist-read-private`: Access to your private playlists
 - `playlist-read-collaborative`: Collaborative playlists
 
-## 🚀 Deployment
+## Deployment
 
 ### Local Development
 ```bash
@@ -201,7 +201,7 @@ CLIENT_SECRET=your_production_client_secret
 REDIRECT_URI=https://yourdomain.com
 ```
 
-## 🛠️ Development
+## Development
 
 ### Adding New Features
 
@@ -230,7 +230,7 @@ curl http://localhost:5000/top_songs?time_range=medium_term
 - **CSS**: Use CSS custom properties for theming
 - **HTML**: Semantic markup with proper accessibility
 
-## 📊 Data Insights
+## Data Insights
 
 ### What You Can Discover
 - **Musical Evolution**: How your taste changes over time
@@ -244,7 +244,7 @@ curl http://localhost:5000/top_songs?time_range=medium_term
 - **Medium Term (6 months)**: Current musical preferences
 - **Long Term (1 year)**: Overall musical identity
 
-## 🤝 Contributing
+## Contributing
 
 ### How to Contribute
 1. Fork the repository
@@ -266,18 +266,18 @@ export FLASK_ENV=development
 python app.py
 ```
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Spotify**: For providing the comprehensive Web API
 - **Spotipy**: Python library for Spotify Web API
 - **Flask**: Lightweight web framework
 - **Euterpe**: The Greek muse of music who inspired this project
 
-## 📞 Support
+## Support
 
 ### Common Issues
 
@@ -301,7 +301,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Discussions**: Use GitHub Discussions for questions
 - **Documentation**: Check this README and inline code comments
 
-## 🔮 Roadmap
+## Roadmap
 
 ### Planned Features
 - [ ] **Export Data**: Download your analytics as CSV/JSON
@@ -321,6 +321,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Made with ❤️ and 🎵 by music lovers, for music lovers.**
+**Made with love and music by music lovers, for music lovers.**
 
 *Discover the story of your musical journey with Euterpe Dashboard.*
